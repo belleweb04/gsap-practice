@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  ul,
+  li {
+    list-style: none;
+  }
+  
+  body {
+    background-color: #eeebdd;
+    color: #1b1717;
+    font-family: Avenir, 'Helvetica neue', Helvetica, sans-serif;
+  }
+  
+  /* 共通 */
+  .section {
+    width: 100%;
+    padding: 100px 0;
+  }
+  .container {
+    width: 80%;
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  
+  .heading {
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+  }
+  
+  /* タイトル */
+  .title {
+    padding: 200px 0 20px;
+    font-size: 52px;
+    text-align: center;
+  }
+  
+  /* 普通のセクション */
+  .normal-text {
+    font-size: 20px;
+    letter-spacing: 0.08em;
+    margin-top: 60px;
+  }
+  
+  /* 横スクロールセクション */
+  .side-scroll {
+    background-color: #1b1717;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .side-scroll-heading {
+    color: #eeebdd;
+  }
+  
+  .side-scroll-list-wrapper {
+    position: relative;
+    width: 100%;
+    height: 700px;
+  }
+  
+  .side-scroll-list {
+    position: absolute;
+    top: 60px;
+    left: 0;
+    display: flex;
+    gap: 0 60px;
+  }
+  
+  .side-scroll-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: 420px;
+    background-color: #eeebdd;
+    color: #1b1717;
+    font-size: 32px;
+    font-weight: 700;
+  }
+  
+  .side-scroll-item + .side-scroll-item {
+    margin-left: 60px;
+  }
+
+  @media screen and (max-width: 520px) {
+    　body {
+      background-color: blue !important;
+
+    }
+    }
