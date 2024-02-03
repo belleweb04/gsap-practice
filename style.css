@@ -1,3 +1,4 @@
+
 * {
     margin: 0;
     padding: 0;
@@ -13,8 +14,15 @@
     background-color: #eeebdd;
     color: #1b1717;
     font-family: Avenir, 'Helvetica neue', Helvetica, sans-serif;
+    background-attachment: fixed;
   }
   
+
+  .wrapper{
+    background:paleturquoise;
+    width:480px;
+    height:100vh;
+  }
   /* 共通 */
   .section {
     width: 100%;
@@ -88,9 +96,8 @@
     margin-left: 60px;
   }
 
-  @media screen and (max-width: 520px) {
-    　body {
-      background-color: blue !important;
 
-    }
-    }
+@media screen and (min-width: 481px) {
+	/* 481px以上に適用されるCSS */
+
+}
